@@ -16,7 +16,7 @@ void loop() {
 
 int ldrStatus = analogRead(ldrPin);
 
-if (ldrStatus <=80) {
+if (ldrStatus <=40) {
 
 digitalWrite(ledPin, HIGH);
 //Serial.println(ldrStatus);
